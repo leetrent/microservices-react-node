@@ -21,5 +21,5 @@ app.post('/posts', (request, response) => {
 });
 
 app.listen(4000, () => {
-    console.log('Listening on port 4000 ...');
+    console.log('Posts service listening on port 4000 ...');
 })
