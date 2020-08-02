@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import azios from 'axios';
 import axios from 'axios';
 
 export default ( {postId} ) => {
