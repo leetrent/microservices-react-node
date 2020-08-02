@@ -31,6 +31,12 @@ app.post('/posts/:id/comments', async (request, response) => {
     response.status(201).send(comments);
 });
 
+app.post('/events', (request, response)  =>{
+    console.log(`Comments Service received the following event '${request.body.type}'`);
+    response.send({});
+});
+
+
 app.listen(4001, () => {
     console.log("Comments service listening on port 4001 ...");
 });
