@@ -35,7 +35,6 @@ cd query/
 'http://event-bus-srv:4005/events'
 
 ### Build Docker Image:
-cd comments/
 $ docker build -t leetrent/query .
 Successfully tagged leetrent/query:latest
 
