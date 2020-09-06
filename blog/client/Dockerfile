@@ -1,6 +1,10 @@
 # Specify base image
 FROM node:alpine
 
+# create-react-app bug workaround
+# https://github.com/facebook/create-react-app/issues/8688
+ENV CI=true
+
 # Set the working directory to '/app' in the container.
 # All commands will be executed relative to this directory
 # in the container.
