@@ -32,6 +32,6 @@ app.post('/events', (request, response) => {
 
 
 app.listen(4000, () => {
-    console.log("Practicing how to update a Kubernetes deployment from DockerHub.");
+    console.log("Practicing using Skaffold to update a Kubernetes deployment without having to push to DockerHub.");
     console.log('Posts service listening on port 4000 ...');
 });
